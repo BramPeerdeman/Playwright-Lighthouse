@@ -1,0 +1,62 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Socylist - pc2\\Desktop\\playwright_app\\playwright.config.ts",
+    "rootDir": "C:/Users/Socylist - pc2/Desktop/playwright_app",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "report.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "on-failure"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/Socylist - pc2/Desktop/playwright_app/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Socylist - pc2/Desktop/playwright_app",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/example.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.35.1",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [],
+  "errors": [
+    {
+      "message": "No tests found",
+      "stack": "Error: No tests found\n"
+    }
+  ]
+}
